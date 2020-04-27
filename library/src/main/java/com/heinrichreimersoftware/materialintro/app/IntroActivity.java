@@ -207,7 +207,7 @@ public class IntroActivity extends AppCompatActivity implements IntroNavigation 
         	setContentView(R.layout.mi_activity_intro);
 	}
 	catch (Exception e) {
-		Log.e(TAG, "onCreateView", e);
+		Log.e("TAG", "onCreateView", e);
  		e.printStackTrace();
 	}
         initViews();
